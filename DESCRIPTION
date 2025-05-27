@@ -1,0 +1,17 @@
+Package: surveyci
+Title: Survey-Adjusted Confidence Intervals for Proportions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Caitlin", "Clary", ,"Caitlin.Clary@biostatglobal.com", 
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0001-7283-749X"))
+Description: Calculates survey-adjusted confidence intervals for proportions with additional method options not available in survey::svyciprop.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    rlang,
+    survey,
+    withr
