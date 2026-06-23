@@ -14,6 +14,11 @@
 #' @import dplyr
 #' @import withr
 #' @import rlang
+#'
+#' @export
+#'
+#' @examples
+#' svyciprop2()
 
 svyciprop2 <- function(
     design,
