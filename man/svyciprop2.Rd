@@ -35,3 +35,6 @@ A dataset with a survey-adjusted proportion estimate, confidence interval, and o
 \description{
 Survey-adjusted confidence intervals for proportions
 }
+\examples{
+svyciprop2()
+}
